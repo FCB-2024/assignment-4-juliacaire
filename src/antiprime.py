@@ -18,7 +18,8 @@ def main(x) :
 		while j <= l:
 			if l % j == 0:
 				k = k + 1
-			l = l - 1
+			j = j + 1
+		l = l - 1
 	if k >= c:
 		res= "not anti-prime"
 	else:
