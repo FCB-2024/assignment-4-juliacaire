@@ -30,9 +30,10 @@ def main(x) :
 	## OF CODE ALLOW THIS FUNCTION TO RETURN THE VALUE
 	## "anti-prime" or "not anti-prime"
 	return(res)
-import sys
-(x)= int(sys.argv [1])
+
 
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
+	import sys
+	(x)= int(sys.argv [1])
 	print(main(x))
